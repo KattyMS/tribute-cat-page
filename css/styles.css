@@ -1,0 +1,193 @@
+body {
+    background-color: white;
+    font-family: "Funnel Display", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: justify;
+    color: #393E46;
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: "Cherry Bomb One", system-ui;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #FFD6BA;
+    margin: 0;
+}
+
+#img-div {
+    max-width: 50%;
+}
+
+#img-caption {
+    font-size: 13px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#image {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.title-container {
+    text-align: left;
+    align-items: center;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+#title {
+    margin-bottom: 0;
+}
+
+.title-container > p {
+    margin: 0;
+}
+
+.summary {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 1.5rem;
+    color: #393E46;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.par1 {
+    max-width: 500px;
+    margin: 20px auto;
+    width: 100%;
+    background-color: #DEE791;
+    padding: 1.5rem;
+    border-radius: 20px;
+    color: #393E46;
+}
+
+.par2 {
+    max-width: 500px;
+    margin: 20px auto;
+    width: 100%;
+    background-color: #A3DC9A;
+    padding: 1.5rem;
+    border-radius: 20px;
+    color: #393E46;
+}
+
+.par3 {
+    max-width: 500px;
+    margin: 20px auto;
+    width: 100%;
+    background-color: #FFF9BD;
+    padding: 1.5rem;
+    border-radius: 20px;
+    color: #393E46;
+}
+
+.par4 {
+    margin: 0 auto;
+    max-width: 800px;
+    color: #393E46;
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+blockquote {
+        margin: 0 auto;
+    max-width: 800px;
+    color: #393E46;
+    text-align: center;
+    padding: 10px 0;
+    font-style: italic;
+
+}
+
+.link {
+    margin: 40px auto;
+    text-align: center;
+    font-weight: 500;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    margin: 0 0 20px 0;
+}
+
+#tribute-link {
+    color: #A3DC9A;
+}
+
+.bottom {
+    background-color: #FFD6BA;
+    margin-top: 50px;
+    padding: 20px 0;
+}
+
+span {
+    font-weight: 500;
+    text-decoration: underline;
+        font-style: italic;
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+
+  /* Cambiamos flex a columna para apilar elementos */
+  .header-container {
+    flex-direction: column;
+    padding: 40px 10px;
+    gap: 20px;
+    align-items: center; /* centra horizontalmente */
+  }
+
+  /* Imagen ocupa casi todo el ancho */
+  #img-div {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  /* Ajustar tamaño del título */
+  h1 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  /* Ajustar títulos secundarios */
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  /* Contenedores de texto más anchos para pantalla pequeña */
+  .summary, .par1, .par2, .par3, .par4, blockquote {
+    max-width: 90%;
+    padding: 1rem;
+    margin: 15px auto;
+  }
+
+  /* Centrar y ajustar link */
+  .link {
+    margin: 30px auto;
+    font-size: 1rem;
+  }
+
+  /* Footer más pequeño y centrado */
+  footer {
+    font-size: 12px;
+    padding: 10px 0;
+  }
+}
+
